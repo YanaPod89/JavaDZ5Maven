@@ -8,9 +8,7 @@ public class CalcService {
             if (money >= threshold) { // можем ли отдыхать?
                 count++; // увеличиваем счётчик месяцев отдыха
                 money -= expenses;
-
                 money /= 3;
-
             } else {
                 money = money + income - expenses;
             }
